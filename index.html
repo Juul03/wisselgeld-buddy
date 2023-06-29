@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisselgeld buddy</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./static/img/vivaldi-logo.png" alt="Vivaldi logo">
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Wisselgeld Berekenen</legend>
+            
+                <div>
+                    <label for="prijs">Wat moet de klant betalen?</label>
+                    <input type="text" name="prijs" id="prijs" placeholder="Kosten van de bestelling" required>
+                </div>
+            
+                <div>
+                    <label for="inname">Welk bedrag geeft de klant aan jou?</label>
+                    <input type="number" name="inname" id="inname" placeholder="Betaald bedrag" required>
+                </div>
+
+                <input type="submit" value="Bereken mijn wisselgeld">
+            </fieldset>
+        </form>
+
+        <h2>Wisselgeld is € <span></span></h2>
+        <p>Dit kan je teruggeven met:</p>
+
+    </main>
+    
+    <script src="./static/scripts.js"></script>
+</body>
+</html>
