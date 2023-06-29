@@ -34,6 +34,9 @@ header img {
 
 main {
     padding:2rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 }
 
 form {
@@ -88,6 +91,7 @@ form input[type="submit"] {
     border-radius:.25rem;
     padding:1rem;
     width:95%;
+    max-width:400px;
     border:none;
 
     font-size:1rem;
